@@ -17,5 +17,3 @@
       </div>
     </div><!-- /.container-fluid -->
   </section>
-Footer
-© 2022 GitHub, Inc.

@@ -19,8 +19,8 @@ Route::view('/', 'template.master');
 
 Route::view('/home', 'template.master');
 
-Route::get('/data-table', [AkunController::class, 'index'])->name('indexAkun');
-Route::get('/table', [AkunController::class, 'create'])->name('createAkun');
+Route::get('/data-table', [AccountController::class, 'datatable'])->name('indexAkun');
+Route::get('/table', [AccountController::class, 'table'])->name('createAkun');
 
 // Route untuk uri /account
 Route::get('/account', [AccountController::class, 'index']

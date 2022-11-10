@@ -23,7 +23,7 @@
   @include('template.partials.sidebar')
 
   
-  @include('template.partials.title')
+  @include('template.partials.judul')
     
 
     <!-- Main content -->

@@ -18,4 +18,13 @@ class AccountController extends Controller
     {
         return view('account.show');
     }   
+    public function table()
+    {
+        return view('account.table');
+    }
+    public function datatable()
+    {
+        return view('account.data-table');
+    }      
+
 }

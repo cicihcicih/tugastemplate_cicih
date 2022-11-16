@@ -16,9 +16,9 @@ class CreateKelasTable extends Migration
         Schema::create('kelas', function (Blueprint $table) {
             $table->id();
             //nama_kelas ....create nama as varchar data type
-            $table->string('nama_kelas');
+            $table->string('nama_kelas',20);
             //jurusan .... create jurusan as varchar data type 
-            $table->string('jurusan');
+            $table->string('jurusan',100);
             $table->timestamps();
         });
     }

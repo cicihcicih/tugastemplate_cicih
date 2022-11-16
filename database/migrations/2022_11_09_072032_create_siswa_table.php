@@ -18,11 +18,12 @@ class CreateSiswaTable extends Migration
             //nomor_induk_siswa ....create field NIS as integer data type
             $table->integer('nomor_induk_siswa');
             //nama .... create nama as varchar data type with lenght character 100
-            $table->integer('nama');
+            $table->string('nama',100);
             //alamat .. cerate alamat as varchar data type
-            $table->integer('alamat');
+            $table->string('alamat');
             //jenis_kelamin .. cerate gender as varchar data type
-            $table->integer('jenis_kelamin');
+            $table->string('jenis_kelamin');
+            
             $table->timestamps();
         });
     }

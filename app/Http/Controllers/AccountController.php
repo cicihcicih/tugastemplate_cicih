@@ -25,6 +25,7 @@ class AccountController extends Controller
     public function datatable()
     {
         return view('account.data-table');
-    }      
+    }   
+      
 
 }
